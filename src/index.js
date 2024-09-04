@@ -1,10 +1,10 @@
 import "./styles.css";
-console.log;
+import { createHome } from "./home.js";
+import { createMenu } from "./menu.js";
+import { createContacts } from "./contacts.js";
 
-// import pizzaImage from "../diMatteo.jpg";
-   
-// const image = document.createElement("img");
-// image.src = pizzaImage;
-   
+createHome();
+createMenu();
+createContacts();
 
-// document.body.appendChild(image);
+
