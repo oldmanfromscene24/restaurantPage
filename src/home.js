@@ -41,7 +41,7 @@ li1.textContent = "Monday: closed"
 ul.appendChild(li1);
 
 const li2 = document.createElement("li");
-li2.textContent = "Tuesday: closed<"
+li2.textContent = "Tuesday: closed"
 ul.appendChild(li2);
 
 const li3 = document.createElement("li");
